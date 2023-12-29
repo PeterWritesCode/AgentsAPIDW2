@@ -1,0 +1,161 @@
+@media screen{
+    @font-face {
+    font-family: integralCFBoldOb;
+    src: url("media/integralCFBoldOblique.otf") format("opentype")
+    }
+
+    @font-face {
+      font-family: integralCFBold;
+      src: url("media/integralCFBold.ttf")
+    }
+
+  html,body {
+    background-color: #2e2221;
+    height:100%;
+    width:100%;
+    overflow:none;
+  }
+
+  .AgentPage {
+    text-align: center;
+  }
+
+  .navbarA{ 
+    position:absolute;
+    left:0;
+    top:0;
+    width:100vw;
+    height:8vh;
+    background-color:#dc7c04;
+    display:flex;
+    align-items:center;
+  }
+
+  .tituloA{
+    font-family:integralCFBoldOb;
+    bottom:1.2vh;
+    font-size:3vw;
+    position:absolute;
+    text-decoration:none;
+    color:white;
+    bottom:0.5vh;
+    left: 1vw;
+  }
+
+  .grid{
+    height:92%;
+    width:100vw;
+  }
+
+  .left{
+    height: 92%;
+    width: 50vw;
+    left:0;
+    top:8vh;
+  }
+  .above{
+    top:10vh;
+    position:absolute;
+    width:50%;
+    height:70%;
+  }
+  .above img{
+    top:10.3vh;
+    position:absolute;
+    margin:auto;
+    width:70%;
+    transform:translateX(-50%)
+   
+  }
+
+  .above h1{
+    text-decoration:underline;
+    font-family:integralCFBold;
+    color:white;
+    position:relative;
+    bottom:0;
+    margin:auto;
+    width:100%;
+    height:20%;
+  }
+  
+  .backgroundAgent{
+    z-index:0;
+    width: 70%;
+    height: 60%;
+    margin:auto;
+    position: relative;
+    border-style:solid;
+    border-color:white;
+    top:11.9vh;
+    background-color: #dc7c04;
+  }
+
+  .h2rarity{
+    font-family:integralCFBold;
+    color:white;
+    bottom:20vh;
+  }
+
+  
+  .collection{
+    display:block;
+    margin:auto;
+    position:absolute;
+    top:8vh;
+    left:2vw;
+    width:30%;
+    height:36%;
+    
+  }
+  .collection h2{
+    font-family:integralCFBold;
+    color:white;
+    position:relative;
+    
+
+  }
+  .collection img{
+    position:relative;
+    width:70%;
+    top:3vh;
+  }
+
+  .collection h5{
+    font-family:integralCFBold;
+    color:white;
+    position:relative;
+    top:-3vh;
+  }
+  .otherInfo{
+    position:absolute; 
+    width:23%;
+    height:36%;
+    left:17vw;
+    top:8vh;
+    display:flex;
+    align-items:center;
+  }
+  .otherInfo h3{
+    margin:auto;
+  }
+ 
+  .right{
+    height: 92%;
+    width: 45%;
+    position:absolute;
+    right:0;
+    top:6vh;
+    display:flex;
+    text-align:center;
+    align-items:center;
+    font-family:integralCFBold;
+    color:white;
+  }
+  .right text{
+    position:relative;
+    margin-top:30%;
+    max-width:70%;
+  }
+
+}
