@@ -7,8 +7,8 @@ ReactDOM.render(
   <React.StrictMode>
        <HashRouter>
       <Routes>
-        <Route path="/" element={<App/>} />
-        <Route path='/agent/:id' element={<AgentPage/>} />
+        <Route exact= "" path="" element={<App/>} />
+        <Route exact= "" path='/agent/:id' element={<AgentPage/>} />
       </Routes>
     </HashRouter>
   </React.StrictMode>,
